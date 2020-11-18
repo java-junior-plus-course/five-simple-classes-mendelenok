@@ -1,17 +1,17 @@
 public class Multiplication {
-    private int term;
+    private double term;
 
-    public int getTerm() {
+    public double getTerm() {
         return term;
     }
 
 
-    public void setTerm(int term) {
+    public void setTerm(double term) {
         this.term = term;
     }
 
 
-    public int doMult (int term1, int term2) {
+    public double doMult (double term1, double term2) {
         System.out.print("Result of multiplication is: ");
         return (term1 * term2);
     }
