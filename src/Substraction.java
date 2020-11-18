@@ -11,7 +11,7 @@ public class Substraction {
     }
 
 
-    public int doSum (int term1, int term2) {
+    public int doSubs (int term1, int term2) {
         System.out.print("Result of substraction is: ");
         return (term1 - term2);
     }
