@@ -12,7 +12,7 @@ public class Multiplication {
 
 
     public int doMult (int term1, int term2) {
-        System.out.print("Result of substraction is: ");
+        System.out.print("Result of multiplication is: ");
         return (term1 * term2);
     }
 }
