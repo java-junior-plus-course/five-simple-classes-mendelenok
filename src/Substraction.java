@@ -1,21 +1,22 @@
 public class Substraction {
-    private int term;
+    private double term;
 
-    public int getTerm() {
+    public double getTerm() {
         return term;
     }
 
 
+    public void setTerm(double term) {
+        this.term = term;
+    }
+
+    //перегрузка метода
     public void setTerm(int term) {
         this.term = term;
     }
 
-    public void setTerm(byte term) {
-        this.term = term;
-    }
 
-
-    public int doSubs (int term1, int term2) {
+    public double doSubs (double term1, double term2) {
         System.out.print("Result of substraction is: ");
         return (term1 - term2);
     }
