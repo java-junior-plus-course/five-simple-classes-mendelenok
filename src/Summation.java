@@ -1,21 +1,22 @@
 public class Summation {
-    private int term;
+    private double term;
 
-    public int getTerm() {
+    public double getTerm() {
         return term;
     }
 
 
+    public void setTerm(double term) {
+        this.term = term;
+    }
+
+    //перегрузка метода - новая сигнатура
     public void setTerm(int term) {
         this.term = term;
     }
 
-    public void setTerm(byte term) {
-        this.term = term;
-    }
 
-
-    public int doSum (int term1, int term2) {
+    public double doSum (double term1, double term2) {
         System.out.print("Result of summation is: ");
         return (term1 + term2);
     }
